@@ -5,8 +5,8 @@ from google.genai import types
 from google import genai
 from database import topics
 
-client_gemini = genai.Client(api_key=GOOGLE_API_KEY)
-groq_client = Groq(api_key=GROQ_API_KEY)
+client_gemini = genai.Client(api_key=st.secrets["GOOGLE_API_KEY"])
+groq_client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 # embedding
 def embed_texto(texto):
