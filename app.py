@@ -46,7 +46,7 @@ def generate_response_groq(query_bruta):
 
     res = results['metadatas'][0][0]
     contexto = results['documents'][0][0]
-    fonte = f"{res['autores']}, {res['ano']}, Página: {res['pagina']}"
+    fonte = f"{res['autores']}, \"{res['nome_do_artigo']}\" ({res['ano']}), Página: {res['pagina']}"
 
     # prompt do sistema
     prompt = f"""
