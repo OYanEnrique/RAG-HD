@@ -84,4 +84,4 @@ pergunta = st.text_input("Pergunta:", value="fale sobre o conhecimento históric
 
 if st.button("Executar"):
     res = generate_response_groq(pergunta)
-    st.text(f"Resposta:\n{res['resposta']} - Fonte: {res['fontes']}")
+    st.write(f"**Resposta:**\n\n{res['resposta']}")
