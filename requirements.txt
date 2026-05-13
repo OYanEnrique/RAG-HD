@@ -2,3 +2,4 @@ streamlit
 chromadb
 groq
 google-genai
+protobuf<=3.20.3
