@@ -52,7 +52,7 @@ def generate_response_groq(query_bruta):
     prompt = f"""
     Você é um assistente acadêmico especializado em Humanidades Digitais.
     Use estritamente o contexto abaixo para responder à pergunta do usuário.
-    Sempre cite o autor e o ano ao responder.
+    Sempre cite o autor e o ano ao responder, mas NÃO inclua a referência bibliográfica completa no final do seu texto.
 
     IMPORTANTE: Caso não encontre a resposta exata no contexto fornecido,
     sua resposta deve ser obrigatoriamente e apenas: \"INFORMAÇÃO_NÃO_ENCONTRADA\".
@@ -85,3 +85,5 @@ pergunta = st.text_input("Pergunta:", value="fale sobre o conhecimento históric
 if st.button("Executar"):
     res = generate_response_groq(pergunta)
     st.write(f"**Resposta:**\n\n{res['resposta']}")
+    if res['fontes']:
+        st.info(f"**Fonte Completa:** {res['fontes']}")
