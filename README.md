@@ -2,6 +2,8 @@
 
 **RAG-HD** (Retrieval-Augmented Generation para Humanidades Digitais) é um assistente acadêmico construído com Python e Streamlit, projetado para buscar e responder a perguntas baseadas em um banco de dados de citações e artigos sobre Humanidades Digitais. O projeto utiliza modelos de linguagem de última geração para embeddings e geração de respostas, garantindo respostas precisas e sempre citando as fontes corretas.
 
+🌐 **Acesse o App:** [https://rag-hd.streamlit.app/](https://rag-hd.streamlit.app/)
+
 Desenvolvido por **[OYanEnrique](https://github.com/OYanEnrique)**.
 
 ---
