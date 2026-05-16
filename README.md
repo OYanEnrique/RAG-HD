@@ -89,5 +89,19 @@ O aplicativo retornará a resposta baseada nos textos cadastrados em `database.p
 
 ## 👤 Autor
 
-**OYanEnrique**
-* [GitHub](https://github.com/OYanEnrique)
+<br>
+
+<div align="center">
+
+<br>
+
+**Autor do Projeto:** [Yan Enrique (OYanEnrique)](https://github.com/OYanEnrique)  
+*(Cientista de Dados | Machine Learning Engineer)*
+
+</div>
+
+---
+
+## 📝 Licença
+
+Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
